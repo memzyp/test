@@ -1,10 +1,5 @@
-- name: test
-  hosts: 192.168.1.21
-  become: yes
-
-  tasks:
-
-- name: Call Roles
-  hosts: 192.168.1.21
+---
+- name: Execute Print Hostname Role
+  hosts: all
   roles:
     - print_hostname
