@@ -1,5 +1,11 @@
 ---
+
+#custom: "test"
+
 - name: Display the hostname
   debug:
     msg: "The hostname is {{ ansible_hostname }}"
 
+- name: custom var
+  debug:
+    msg: "The hostname is {{ custom }}"
