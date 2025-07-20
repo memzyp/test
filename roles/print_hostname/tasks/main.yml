@@ -8,4 +8,4 @@
 
 - name: custom var
   debug:
-    msg: "The hostname is {{ custom }}"
+    msg: "The hostname is {{ custom }} and instance name is {{ instance_name }}"
